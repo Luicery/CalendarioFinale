@@ -11,7 +11,7 @@ class Login extends React.Component {
   login = () => {
     axios.post("https://calendar-rails-final.herokuapp.com/api/user_token", {auth: {email: this.state.email, password: this.state.password}})
     .then(res => {
-      console.log("Logged in ",res)
+      console.log("Logged in ",res.data)
       localStorage.setItem("jwt", res.data.jwt)
     })
     .catch(err => {
