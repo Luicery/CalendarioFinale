@@ -7,7 +7,7 @@ import {
   HashRouter as Router
 } from "react-router-dom"
 import CreateAppointment from "./CreateAppointment"
-const APPOINTMENT_URL = `https://calendar-rails-final.herokuapp.com/profile.json`
+const APPOINTMENT_URL = `https://calendar-rails-final.herokuapp.com/profile`
 class ShowDate extends React.Component {
   state = {
     appointments: [],
