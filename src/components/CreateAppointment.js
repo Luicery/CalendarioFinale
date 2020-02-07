@@ -1,7 +1,7 @@
 import React from "react"
 import axios from "axios"
-const APPOINTMENT_URL = `https://calendar-rails-final.herokuapp.com/appointments`
-const USER_URL = `https://calendar-rails-final.herokuapp.com/profile`
+const APPOINTMENT_URL = `http://localhost:3000/appointments`
+const USER_URL = `http://localhost:3000/profile`
 class CreateAppointment extends React.Component {
   constructor (props) {
     super(props);

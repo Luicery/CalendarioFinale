@@ -27,7 +27,7 @@ class Signup extends React.Component {
         password_confirmation: password_confirmation
       };
       console.log('user', user);
-    axios.post('https://calendar-rails-final.herokuapp.com/users', {user} )
+    axios.post('http://localhost:3000/users', {user} )
       .then(response => {
         console.log('response', response);
       })
