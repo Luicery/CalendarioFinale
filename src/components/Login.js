@@ -9,7 +9,7 @@ class Login extends React.Component {
     password: ""
   }
   login = () => {
-    axios.post("http://localhost:3000/api/user_token", {auth: {email: this.state.email, password: this.state.password}})
+    axios.post("https://calendarprojectrails.herokuapp.com/api/user_token", {auth: {email: this.state.email, password: this.state.password}})
     .then(res => {
       console.log("Logged in ",res)
       localStorage.setItem("jwt", res.data.jwt)
@@ -21,7 +21,7 @@ class Login extends React.Component {
   }
   getUser(admin) {
     let token = "Bearer " + localStorage.getItem("jwt")
-    let url = "http://localhost:3000/profile"
+    let url = "https://calendarprojectrails.herokuapp.com/profile"
     axios.get(url, { params:{}, headers: { 'Authorization': token } })
     .then(res => {
       this.setState({userReceived: res.data})

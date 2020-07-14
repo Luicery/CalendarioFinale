@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "778c19668a1d178b9867572af5df4691",
+    "revision": "308fae39b6484044218cf4c2f3873e11",
     "url": "/CalendarioFinale/index.html"
   },
   {
-    "revision": "94d909d873c681ac8059",
+    "revision": "27e888256f4351754737",
     "url": "/CalendarioFinale/static/css/main.6a88ff95.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CalendarioFinale/static/js/2.1af99006.chunk.js.LICENSE"
   },
   {
-    "revision": "94d909d873c681ac8059",
-    "url": "/CalendarioFinale/static/js/main.ac3bd9b6.chunk.js"
+    "revision": "27e888256f4351754737",
+    "url": "/CalendarioFinale/static/js/main.5af32400.chunk.js"
   },
   {
     "revision": "ca1c4285ee0f563fbc3c",
