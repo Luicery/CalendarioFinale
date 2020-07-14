@@ -3,8 +3,8 @@ import axios from "axios"
 import NoteSubmit from "./NoteSubmit"
 import ShowMap from "./ShowMap"
 import "../css/style.css"
-const APPOINTMENT_URL = `http://calendarprojectrails.herokuapp.com/appointments`
-const NOTES_URL = `http://calendarprojectrails.herokuapp.com/notes`
+const APPOINTMENT_URL = `https://calendarprojectrails.herokuapp.com/appointments`
+const NOTES_URL = `https://calendarprojectrails.herokuapp.com/notes`
 class ShowEvent extends React.Component {
   state = {
     title: "",
