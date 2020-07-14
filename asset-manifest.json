@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CalendarioFinale/static/css/main.6a88ff95.chunk.css",
+    "main.js": "/CalendarioFinale/static/js/main.e8ac1b3c.chunk.js",
+    "main.js.map": "/CalendarioFinale/static/js/main.e8ac1b3c.chunk.js.map",
+    "runtime-main.js": "/CalendarioFinale/static/js/runtime-main.37690892.js",
+    "runtime-main.js.map": "/CalendarioFinale/static/js/runtime-main.37690892.js.map",
+    "static/js/2.1af99006.chunk.js": "/CalendarioFinale/static/js/2.1af99006.chunk.js",
+    "static/js/2.1af99006.chunk.js.map": "/CalendarioFinale/static/js/2.1af99006.chunk.js.map",
+    "index.html": "/CalendarioFinale/index.html",
+    "precache-manifest.40d78b35d2cc5d0e089e10aa340d666f.js": "/CalendarioFinale/precache-manifest.40d78b35d2cc5d0e089e10aa340d666f.js",
+    "service-worker.js": "/CalendarioFinale/service-worker.js",
+    "static/css/main.6a88ff95.chunk.css.map": "/CalendarioFinale/static/css/main.6a88ff95.chunk.css.map",
+    "static/js/2.1af99006.chunk.js.LICENSE": "/CalendarioFinale/static/js/2.1af99006.chunk.js.LICENSE",
+    "static/media/SEi35_Hassan_HeadshotBW_022.jpg": "/CalendarioFinale/static/media/SEi35_Hassan_HeadshotBW_022.5a816c5f.jpg",
+    "static/media/SEi35_IvanW_HeadshotBW_027.jpg": "/CalendarioFinale/static/media/SEi35_IvanW_HeadshotBW_027.51eb7f9d.jpg",
+    "static/media/SEi35_KaiY_HeadshotBW_036.jpg": "/CalendarioFinale/static/media/SEi35_KaiY_HeadshotBW_036.dd033dad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37690892.js",
+    "static/js/2.1af99006.chunk.js",
+    "static/css/main.6a88ff95.chunk.css",
+    "static/js/main.e8ac1b3c.chunk.js"
+  ]
+}
