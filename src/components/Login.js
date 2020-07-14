@@ -15,7 +15,7 @@ class Login extends React.Component {
       localStorage.setItem("jwt", res.data.jwt)
     })
     .catch(err => {
-      console.log("Error ", err)
+      console.log(err)
     })
     this.props.history.push('/')
   }
